@@ -1,110 +1,143 @@
+use std::collections::HashMap;
 use std::error::Error;
-use std::sync::Arc;
-use std::time::Duration;
+use std::fs::File;
+use std::path::Path;
 
-use log::debug;
-use reqwest::{header, Client};
+use csv::Writer;
+use indicatif::ProgressBar;
+use log::error;
 use serde::{Deserialize, Serialize};
-use time::OffsetDateTime;
-use tokio::sync::Semaphore;
-use tokio::time::sleep;
 
+use crate::client::dto::{CategoryMarketData, CoinMarketData};
+use crate::client::CoinGeckoClient;
 use crate::constants::{
-    COINGECKO_API_URL, MAX_CONCURRENT_REQUESTS, SECONDS_TO_WAIT, TOKEN_ENV_VAR, TOKEN_HEADER,
-    USER_AGENT,
+    CACHE_FILE_PATH, CATEGORY_SEPARATOR, COIN_INFO_FILE_PATH, MAX_MARKET_CAP, MIN_MARKET_CAP,
+    TOP_COINS_FOR_FINAL_LIST, TOP_COINS_IN_CATEGORY, TOP_COINS_TOTAL,
 };
 
-pub mod constants;
+pub mod client;
+mod constants;
 
-#[derive(Serialize, Deserialize, Debug)]
-pub struct CoinMarketData {
-    pub id: String,
-    pub symbol: String,
-    pub name: String,
-    pub market_cap: Option<f64>,
-    pub market_cap_rank: Option<u16>,
+#[derive(Serialize, Debug)]
+struct CoinInfo {
+    symbol: String,
+    num_categories: usize,
+    market_cap_rank: u16,
+    categories: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct CategoryMarketData {
-    pub id: String,
-    pub name: String,
-    pub market_cap: Option<f64>,
+struct CategoryCoins {
+    category: CategoryMarketData,
+    coins: Vec<CoinMarketData>,
 }
 
-pub struct CoinGeckoClient {
-    client: Client,
-    base_url: String,
-    rate_limiter: Arc<Semaphore>,
+pub async fn output_top_coin_per_category(client: CoinGeckoClient) {
+    let categories_data = if Path::new(CACHE_FILE_PATH).exists() {
+        read_categories_data_from_file().unwrap_or_else(|e| {
+            error!(
+                "Error reading from file: {}. Fetching categories from API.",
+                e
+            );
+            HashMap::new()
+        })
+    } else {
+        fetch_and_filter_categories_data(&client).await
+    };
+
+    let mut symbol_map = HashMap::new();
+
+    for category_data in categories_data.values() {
+        let category = &category_data.category;
+        let coins = &category_data.coins;
+        coins
+            .iter()
+            .take(TOP_COINS_FOR_FINAL_LIST)
+            .filter(|coin| coin.market_cap_rank.is_some())
+            .for_each(|coin| {
+                let entry = symbol_map.entry(coin.symbol.clone()).or_insert(CoinInfo {
+                    symbol: coin.symbol.clone(),
+                    num_categories: 0,
+                    market_cap_rank: 0,
+                    categories: String::new(),
+                });
+                entry.num_categories += 1;
+                entry.market_cap_rank = coin.market_cap_rank.unwrap();
+                if !entry.categories.is_empty() {
+                    entry.categories.push_str(CATEGORY_SEPARATOR);
+                }
+                entry.categories.push_str(&category.name);
+            });
+    }
+
+    let mut coins: Vec<&CoinInfo> = symbol_map
+        .values()
+        .filter(|coin| matches!(coin.market_cap_rank, MIN_MARKET_CAP..=MAX_MARKET_CAP))
+        .collect();
+    coins.sort_by(|a, b| b.num_categories.cmp(&a.num_categories));
+    write_coin_info_to_file(&coins);
 }
 
-impl Default for CoinGeckoClient {
-    fn default() -> Self {
-        let mut headers = header::HeaderMap::new();
-        headers.insert(
-            header::USER_AGENT,
-            header::HeaderValue::from_static(USER_AGENT),
-        );
-        let token = std::env::var(TOKEN_ENV_VAR)
-            .unwrap_or_else(|_| panic!("{} must be set", TOKEN_ENV_VAR));
-        headers.insert(
-            header::HeaderName::from_static(TOKEN_HEADER),
-            header::HeaderValue::from_str(&token).unwrap(),
-        );
-        let client = Client::builder().default_headers(headers).build().unwrap();
-        let rate_limiter = Arc::new(Semaphore::new(MAX_CONCURRENT_REQUESTS));
-        CoinGeckoClient {
-            client,
-            base_url: COINGECKO_API_URL.to_string(),
-            rate_limiter,
+async fn fetch_and_filter_categories_data(
+    client: &CoinGeckoClient,
+) -> HashMap<String, CategoryCoins> {
+    let categories = match client.get_categories_market_data().await {
+        Ok(categories) => categories,
+        Err(e) => {
+            error!("Error fetching categories: {}", e);
+            return HashMap::new();
+        }
+    };
+
+    let top_coins_ids: Vec<String> = match client.get_coins_market_data(TOP_COINS_TOTAL).await {
+        Ok(coins) => coins.iter().map(|coin| coin.id.clone()).collect(),
+        Err(e) => {
+            error!("Error fetching coins market data: {}", e);
+            return HashMap::new();
+        }
+    };
+
+    let mut filtered_categories = HashMap::new();
+
+    let bar = ProgressBar::new(categories.len() as u64);
+    for category in categories {
+        bar.inc(1);
+        match client
+            .get_coins_in_category(&category.id, TOP_COINS_IN_CATEGORY)
+            .await
+        {
+            Ok(coins) => {
+                if coins.is_empty() || top_coins_ids.contains(&coins[0].id) {
+                    continue;
+                }
+                filtered_categories.insert(category.id.clone(), CategoryCoins { category, coins });
+            }
+            Err(e) => error!("Error fetching coins in category {}: {}", category.name, e),
         }
     }
+    bar.finish_with_message("Done!");
+
+    write_categories_data_to_file(&filtered_categories);
+
+    filtered_categories
 }
 
-impl CoinGeckoClient {
-    async fn rate_limited_request<F, T>(&self, request_fn: F) -> Result<T, Box<dyn Error>>
-    where
-        F: Fn() -> reqwest::RequestBuilder,
-        T: serde::de::DeserializeOwned,
-    {
-        let _permit = self.rate_limiter.acquire().await.unwrap();
-        sleep(Duration::from_secs(SECONDS_TO_WAIT)).await;
-        debug!(
-            "Making request, current ts: {}, remaining permits: {}",
-            OffsetDateTime::now_utc(),
-            self.rate_limiter.available_permits()
-        );
-        let response = request_fn().send().await?;
-        Ok(response.json().await?)
+fn read_categories_data_from_file() -> Result<HashMap<String, CategoryCoins>, Box<dyn Error>> {
+    let file = File::open(CACHE_FILE_PATH).expect("Unable to open file");
+    Ok(serde_json::from_reader(file)?)
+}
+
+fn write_categories_data_to_file(categories: &HashMap<String, CategoryCoins>) {
+    let file = File::create(CACHE_FILE_PATH).expect("Unable to create file");
+    serde_json::to_writer_pretty(file, categories).expect("Unable to serialize categories");
+}
+
+fn write_coin_info_to_file(coin_info: &Vec<&CoinInfo>) {
+    let mut writer = Writer::from_path(COIN_INFO_FILE_PATH).expect("Unable to create file");
+
+    for coin in coin_info {
+        writer.serialize(coin).expect("Unable to write to CSV");
     }
 
-    pub async fn get_coins_market_data(
-        &self,
-        limit: u8,
-    ) -> Result<Vec<CoinMarketData>, Box<dyn Error>> {
-        let url = format!(
-            "{}/coins/markets?vs_currency=usd&order=market_cap_desc&per_page={}",
-            self.base_url, limit
-        );
-        self.rate_limited_request(|| self.client.get(&url)).await
-    }
-
-    pub async fn get_categories_market_data(
-        &self,
-    ) -> Result<Vec<CategoryMarketData>, Box<dyn Error>> {
-        let url = format!("{}/coins/categories?order=market_cap_desc", self.base_url);
-        self.rate_limited_request(|| self.client.get(&url)).await
-    }
-
-    pub async fn get_coins_in_category(
-        &self,
-        category_id: &str,
-        limit: u8,
-    ) -> Result<Vec<CoinMarketData>, Box<dyn Error>> {
-        let url = format!(
-            "{}/coins/markets?vs_currency=usd&category={}&order=market_cap_desc&per_page={}",
-            self.base_url, category_id, limit
-        );
-        self.rate_limited_request(|| self.client.get(&url)).await
-    }
+    writer.flush().expect("Unable to flush writer");
 }
