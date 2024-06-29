@@ -1,9 +1,5 @@
 use std::collections::HashMap;
-use std::error::Error;
-use std::fs::File;
-use std::path::Path;
 
-use csv::Writer;
 use indicatif::ProgressBar;
 use log::error;
 use serde::{Deserialize, Serialize};
@@ -11,12 +7,16 @@ use serde::{Deserialize, Serialize};
 use crate::client::dto::{CategoryMarketData, CoinMarketData};
 use crate::client::CoinGeckoClient;
 use crate::constants::{
-    CACHE_FILE_PATH, CATEGORY_SEPARATOR, COIN_INFO_FILE_PATH, MAX_MARKET_CAP, MIN_MARKET_CAP,
-    TOP_COINS_FOR_FINAL_LIST, TOP_COINS_IN_CATEGORY, TOP_COINS_TOTAL,
+    CATEGORY_SEPARATOR, MAX_MARKET_CAP, MIN_MARKET_CAP, TOP_COINS_FOR_FINAL_LIST,
+    TOP_COINS_IN_CATEGORY, TOP_COINS_TOTAL,
+};
+use crate::io::{
+    read_categories_data_from_file, write_categories_data_to_file, write_coin_info_to_file,
 };
 
 pub mod client;
 mod constants;
+mod io;
 
 #[derive(Serialize, Debug)]
 struct CoinInfo {
@@ -33,16 +33,15 @@ struct CategoryCoins {
 }
 
 pub async fn output_top_coin_per_category(client: CoinGeckoClient) {
-    let categories_data = if Path::new(CACHE_FILE_PATH).exists() {
-        read_categories_data_from_file().unwrap_or_else(|e| {
+    let categories_data = match read_categories_data_from_file() {
+        Ok(data) => data,
+        Err(e) => {
             error!(
                 "Error reading from file: {}. Fetching categories from API.",
                 e
             );
-            HashMap::new()
-        })
-    } else {
-        fetch_and_filter_categories_data(&client).await
+            fetch_and_filter_categories_data(&client).await
+        }
     };
 
     let mut symbol_map = HashMap::new();
@@ -120,24 +119,4 @@ async fn fetch_and_filter_categories_data(
     write_categories_data_to_file(&filtered_categories);
 
     filtered_categories
-}
-
-fn read_categories_data_from_file() -> Result<HashMap<String, CategoryCoins>, Box<dyn Error>> {
-    let file = File::open(CACHE_FILE_PATH).expect("Unable to open file");
-    Ok(serde_json::from_reader(file)?)
-}
-
-fn write_categories_data_to_file(categories: &HashMap<String, CategoryCoins>) {
-    let file = File::create(CACHE_FILE_PATH).expect("Unable to create file");
-    serde_json::to_writer_pretty(file, categories).expect("Unable to serialize categories");
-}
-
-fn write_coin_info_to_file(coin_info: &Vec<&CoinInfo>) {
-    let mut writer = Writer::from_path(COIN_INFO_FILE_PATH).expect("Unable to create file");
-
-    for coin in coin_info {
-        writer.serialize(coin).expect("Unable to write to CSV");
-    }
-
-    writer.flush().expect("Unable to flush writer");
 }
