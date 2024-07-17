@@ -1,16 +1,16 @@
 [package]
-name = "coingecko-sdk-rs"
+name = "coingecko_sdk_rs"
 version = "0.1.0"
 edition = "2021"
+
+[lib]
+name = "coingecko_sdk_rs"
+path = "src/lib.rs"
 
 [dependencies]
 reqwest = { version = "0.12.5", features = ["json"] }
 serde = { version = "1.0.203", features = ["derive"] }
 tokio = { version = "1.38.0", features = ["full"] }
-tokio-util = "0.7.11"
 time = "0.3.36"
-serde_json = "1.0.118"
 env_logger = "0.11.3"
 log = "0.4.21"
-indicatif = "0.17.8"
-csv = "1.3.0"

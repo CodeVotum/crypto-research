@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct CoinMarketData {
     pub id: String,
     pub symbol: String,
@@ -9,7 +9,7 @@ pub struct CoinMarketData {
     pub market_cap_rank: Option<u16>,
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct CategoryMarketData {
     pub id: String,
     pub name: String,

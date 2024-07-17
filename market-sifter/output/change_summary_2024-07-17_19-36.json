@@ -1,0 +1,306 @@
+{
+  "appeared": [],
+  "disappeared": [],
+  "detailed_changes": [
+    {
+      "symbol": "avax",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "DragonFly Capital Portfolio, DeFiance Capital Portfolio",
+          "new_value": "DeFiance Capital Portfolio, DragonFly Capital Portfolio"
+        }
+      ]
+    },
+    {
+      "symbol": "xai",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "XAI Ecosystem, Layer 3 (L3)",
+          "new_value": "Layer 3 (L3), XAI Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "orai",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "317",
+          "new_value": "318"
+        },
+        {
+          "field": "categories",
+          "old_value": "Oraichain Ecosystem, Big Data",
+          "new_value": "Big Data, Oraichain Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "theta",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "62",
+          "new_value": "63"
+        },
+        {
+          "field": "categories",
+          "old_value": "Entertainment, Theta Ecosystem, SocialFi",
+          "new_value": "Entertainment, SocialFi, Theta Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "icp",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Storage, Internet Computer Ecosystem",
+          "new_value": "Internet Computer Ecosystem, Storage"
+        }
+      ]
+    },
+    {
+      "symbol": "uni",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Automated Market Maker (AMM), Sora Ecosystem, Coinbase Ventures Portfolio, Energi Ecosystem, Decentralized Exchange (DEX), Huobi ECO Chain Ecosystem, Paradigm Portfolio, Defi Pulse Index (DPI), Governance, Yield Farming",
+          "new_value": "Automated Market Maker (AMM), Coinbase Ventures Portfolio, Decentralized Exchange (DEX), Defi Pulse Index (DPI), Energi Ecosystem, Governance, Huobi ECO Chain Ecosystem, Paradigm Portfolio, Sora Ecosystem, Yield Farming"
+        }
+      ]
+    },
+    {
+      "symbol": "strk",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Starknet Ecosystem, Consensys Portfolio",
+          "new_value": "Consensys Portfolio, Starknet Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "pendle",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Derivatives, Fixed Interest, Yield Tokenization, Olympus Pro, LRTfi, LSDFi, Liquid Restaking Governance Tokens",
+          "new_value": "Derivatives, Fixed Interest, Liquid Restaking Governance Tokens, LRTfi, LSDFi, Olympus Pro, Yield Tokenization"
+        }
+      ]
+    },
+    {
+      "symbol": "link",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Oracle, GMCI DeFi Index, Edgeware Ecosystem, Business Services, Infrastructure",
+          "new_value": "Business Services, Edgeware Ecosystem, GMCI DeFi Index, Infrastructure, Oracle"
+        }
+      ]
+    },
+    {
+      "symbol": "matic",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "GMCI Layer 2 Index, Rollup, Layer 2 (L2), Binance Labs Portfolio, Binance Launchpad",
+          "new_value": "Binance Labs Portfolio, Binance Launchpad, GMCI Layer 2 Index, Layer 2 (L2), Rollup"
+        }
+      ]
+    },
+    {
+      "symbol": "imx",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Gaming (GameFi), Immutable Ecosystem, Play To Earn, Gaming Blockchains",
+          "new_value": "Gaming (GameFi), Gaming Blockchains, Immutable Ecosystem, Play To Earn"
+        }
+      ]
+    },
+    {
+      "symbol": "cvx",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Yield Aggregator, Yield Optimizer, Metagovernance",
+          "new_value": "Metagovernance, Yield Aggregator, Yield Optimizer"
+        }
+      ]
+    },
+    {
+      "symbol": "gno",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Prediction Markets, SideChain, MEV Protection",
+          "new_value": "MEV Protection, Prediction Markets, SideChain"
+        }
+      ]
+    },
+    {
+      "symbol": "weeth",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Liquid Restaking Tokens, Ether.fi Ecosystem, Restaking",
+          "new_value": "Ether.fi Ecosystem, Liquid Restaking Tokens, Restaking"
+        }
+      ]
+    },
+    {
+      "symbol": "tia",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "OKX Ventures Portfolio, Modular Blockchain",
+          "new_value": "Modular Blockchain, OKX Ventures Portfolio"
+        }
+      ]
+    },
+    {
+      "symbol": "ankr",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Rollups-as-a-Service (RaaS), Polygon zkEVM Ecosystem, Technology & Science, Scroll Ecosystem",
+          "new_value": "Polygon zkEVM Ecosystem, Rollups-as-a-Service (RaaS), Scroll Ecosystem, Technology & Science"
+        }
+      ]
+    },
+    {
+      "symbol": "gmt",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Sports Games, Move To Earn",
+          "new_value": "Move To Earn, Sports Games"
+        }
+      ]
+    },
+    {
+      "symbol": "paal",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Discord Bots, Telegram Apps, PAAL AI",
+          "new_value": "Discord Bots, PAAL AI, Telegram Apps"
+        }
+      ]
+    },
+    {
+      "symbol": "xaut",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Tokenized Gold, Asset-backed Tokens",
+          "new_value": "Asset-backed Tokens, Tokenized Gold"
+        }
+      ]
+    },
+    {
+      "symbol": "sui",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Sui Ecosystem, Binance Launchpool",
+          "new_value": "Binance Launchpool, Sui Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "ezeth",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Linea Ecosystem, Mode Ecosystem, Blast Ecosystem",
+          "new_value": "Blast Ecosystem, Linea Ecosystem, Mode Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "axs",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Gaming Governance Token, Axie Infinity Ecosystem, Breeding, Gaming Utility Token, Card Games",
+          "new_value": "Axie Infinity Ecosystem, Breeding, Card Games, Gaming Governance Token, Gaming Utility Token"
+        }
+      ]
+    },
+    {
+      "symbol": "gala",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "83",
+          "new_value": "82"
+        },
+        {
+          "field": "categories",
+          "old_value": "Gaming Platform, GalaChain Ecosystem",
+          "new_value": "GalaChain Ecosystem, Gaming Platform"
+        }
+      ]
+    },
+    {
+      "symbol": "ewt",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "358",
+          "new_value": "359"
+        },
+        {
+          "field": "categories",
+          "old_value": "Energy, Regenerative Finance (ReFi)",
+          "new_value": "Regenerative Finance (ReFi), Energy"
+        }
+      ]
+    },
+    {
+      "symbol": "near",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Artificial Intelligence (AI), Data Availability, Circle Ventures Portfolio, Zero Knowledge (ZK)",
+          "new_value": "Artificial Intelligence (AI), Circle Ventures Portfolio, Data Availability, Zero Knowledge (ZK)"
+        }
+      ]
+    },
+    {
+      "symbol": "wbtc",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Wrapped-Tokens, Tokenized BTC",
+          "new_value": "Tokenized BTC, Wrapped-Tokens"
+        }
+      ]
+    },
+    {
+      "symbol": "acx",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Intent, Boba Network Ecosystem",
+          "new_value": "Boba Network Ecosystem, Intent"
+        }
+      ]
+    },
+    {
+      "symbol": "mkr",
+      "changes": [
+        {
+          "field": "categories",
+          "old_value": "Stablecoin Protocol, Lending/Borrowing",
+          "new_value": "Lending/Borrowing, Stablecoin Protocol"
+        }
+      ]
+    }
+  ]
+}

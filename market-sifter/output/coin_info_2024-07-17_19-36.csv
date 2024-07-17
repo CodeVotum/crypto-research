@@ -1,0 +1,139 @@
+symbol,num_categories,market_cap_rank,categories
+dydx,1,94,Appchains
+crv,1,181,Curve Ecosystem
+lunc,1,149,Terra Ecosystem
+wemix,1,144,WEMIX Ecosystem
+avax,2,12,"DeFiance Capital Portfolio, DragonFly Capital Portfolio"
+elf,1,230,Aelf Ecosystem
+corgiai,1,171,AI Meme
+alph,1,393,Alephium Ecosystem
+boden,1,447,Parody Meme
+xai,2,342,"Layer 3 (L3), XAI Ecosystem"
+arb,1,38,eGirl Capital Portfolio
+ygg,1,251,Guild and Scholarship
+astr,1,172,Astar Ecosystem
+dog,2,126,"Bitcoin Ecosystem, Runes"
+egld,1,101,MultiversX Ecosystem
+ilv,2,154,"Adventure Games, RPG"
+vanry,1,267,Vanar Chain Ecosystem
+orai,2,318,"Big Data, Oraichain Ecosystem"
+ethw,1,226,EthereumPoW Ecosystem
+reth,1,56,Manta Network Ecosystem
+dot,1,16,Layer 0 (L0)
+sand,1,103,Simulation Games
+flow,1,85,Sports
+theta,3,63,"Entertainment, SocialFi, Theta Ecosystem"
+icp,2,29,"Internet Computer Ecosystem, Storage"
+floki,1,59,TokenFi Launchpad
+redo,1,404,TON Meme
+bome,1,107,Presale Meme 
+uni,10,19,"Automated Market Maker (AMM), Coinbase Ventures Portfolio, Decentralized Exchange (DEX), Defi Pulse Index (DPI), Energi Ecosystem, Governance, Huobi ECO Chain Ecosystem, Paradigm Portfolio, Sora Ecosystem, Yield Farming"
+edu,1,308,Education
+lyx,1,475,Lukso Ecosystem
+zeta,1,245,ZetaChain Ecosystem
+shib,1,14,Shibarium Ecosystem
+strk,2,87,"Consensys Portfolio, Starknet Ecosystem"
+xmr,1,34,Privacy
+xrd,1,203,Radix Ecosystem
+frax,1,119,Seigniorage
+pendle,7,99,"Derivatives, Fixed Interest, Liquid Restaking Governance Tokens, LRTfi, LSDFi, Olympus Pro, Yield Tokenization"
+not,1,65,Tap to Earn
+twt,1,158,Account Abstraction
+link,5,17,"Business Services, Edgeware Ecosystem, GMCI DeFi Index, Infrastructure, Oracle"
+mother,1,477,Celebrity-Themed
+$wen,1,459,Fractionalized NFT
+apt,1,33,Aptos Ecosystem
+aevo,1,160,Perpetuals
+degen,1,386,Farcaster Ecosystem
+zro,1,119,Cross-chain Communication
+matic,5,23,"Binance Labs Portfolio, Binance Launchpad, GMCI Layer 2 Index, Layer 2 (L2), Rollup"
+ctk,1,411,Cybersecurity
+wld,1,108,Identity
+imx,4,46,"Gaming (GameFi), Gaming Blockchains, Immutable Ecosystem, Play To Earn"
+fet,3,28,"AI Agents, GMCI DePIN Index, NFT"
+klay,1,132,Klaytn Ecosystem
+cvx,3,238,"Metagovernance, Yield Aggregator, Yield Optimizer"
+gno,3,104,"MEV Protection, Prediction Markets, SideChain"
+lrc,1,250,Loopring Ecosystem
+weeth,3,26,"Ether.fi Ecosystem, Liquid Restaking Tokens, Restaking"
+tia,2,72,"Modular Blockchain, OKX Ventures Portfolio"
+audio,1,282,Music
+ankr,4,198,"Polygon zkEVM Ecosystem, Rollups-as-a-Service (RaaS), Scroll Ecosystem, Technology & Science"
+gmt,2,186,"Move To Earn, Sports Games"
+ach,1,380,Payment Solutions
+chr,1,280,Chromia Ecosystem
+ray,1,152,Launchpad
+trac,1,201,Decentralized Science (DeSci)
+ace,1,377,Endurance Ecosystem
+hbar,1,36,Protocol
+wif,1,51,Solana Meme
+hnt,1,131,Communication
+paal,3,245,"Discord Bots, PAAL AI, Telegram Apps"
+ondo,1,58,Real World Assets (RWA)
+inj,1,47,Secret Ecosystem
+mog,1,132,Cat-Themed
+bb,1,287,Binance Megadrop
+xaut,2,137,"Asset-backed Tokens, Tokenized Gold"
+sui,2,53,"Binance Launchpool, Sui Ecosystem"
+okt,1,264,OEC Ecosystem
+ant,1,189,Software
+ezeth,3,32,"Blast Ecosystem, Linea Ecosystem, Mode Ecosystem"
+stx,2,41,"Bitcoin Layer 2, Stacks Ecosystem"
+rbn,2,490,"Options, Structured Products"
+rlb,1,261,Gambling
+axs,5,88,"Axie Infinity Ecosystem, Breeding, Card Games, Gaming Governance Token, Gaming Utility Token"
+rune,1,69,Bridge Governance Tokens
+ada,1,11,Cardano Ecosystem
+iotx,1,174,IoTeX Ecosystem
+gala,2,82,"GalaChain Ecosystem, Gaming Platform"
+kuji,1,323,Kujira Ecosystem
+kda,1,303,Kadena Ecosystem
+ewt,2,359,"Regenerative Finance (ReFi), Energy"
+ldo,1,52,Liquid Staking Governance Tokens
+blur,2,188,"NFT Marketplace, NFTFi"
+pepe,1,25,Frog-Themed
+pro,1,456,Real Estate
+sei,2,78,"Parallelized EVM, Sei Ecosystem"
+near,4,20,"Artificial Intelligence (AI), Circle Ventures Portfolio, Data Availability, Zero Knowledge (ZK)"
+tlos,1,462,Telos Ecosystem
+wbtc,2,15,"Tokenized BTC, Wrapped-Tokens"
+xdc,1,148,XDC Ecosystem
+people,1,150,PolitiFi
+snx,1,116,Synthetic Issuer
+chz,1,112,Chiliz Ecosystem
+safe,1,126,Wallets
+c98,1,329,Viction Ecocystem
+acx,2,345,"Boba Network Ecosystem, Intent"
+eurs,1,339,EUR Stablecoin
+ordi,2,96,"BRC-20, Inscriptions"
+rndr,2,35,"DePIN, Metaverse"
+btt,1,91,BitTorrent Ecosystem
+1inch,1,145,Number
+ixs,1,368,Poolz Finance Launchpad
+skl,1,223,Skale Ecosystem
+kag,1,410,Tokenized Silver
+venom,1,237,Venom Ecosystem
+brett,1,66,Base Meme
+yfi,1,270,Yearn Ecosystem
+nexo,1,115,Finance / Banking
+purr,1,459,Hyperliquid Ecosystem
+iq,1,379,Media
+merl,1,405,Merlin Chain Ecosystem
+fil,1,42,Sequoia Capital Portfolio
+dao,1,334,DaoMaker Ecosystem
+msol,1,100,Liquid Staked SOL
+nxm,1,212,Insurance
+bch,1,18,Bitcoin Fork
+super,1,207,Collectibles
+vet,2,49,"Business Platform, Internet of Things (IOT)"
+w,1,124,Interoperability
+mkr,2,45,"Lending/Borrowing, Stablecoin Protocol"
+xvs,1,423,opBNB Ecocystem
+dash,1,213,Masternodes
+iota,1,134,IOTA EVM Ecosystem
+ceth,2,177,"Compound Tokens, cToken"
+aitech,1,460,ChainGPT Pad
+zil,1,192,Zilliqa Ecosystem
+grt,1,50,Analytics
+ohm,1,269,Rebase Tokens
+zig,1,372,Injective Ecosystem
