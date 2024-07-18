@@ -1,0 +1,579 @@
+{
+  "appeared": [
+    {
+      "symbol": "sushi",
+      "num_categories": 1,
+      "market_cap_rank": 298,
+      "categories": "OEC Ecosystem"
+    },
+    {
+      "symbol": "fxs",
+      "num_categories": 1,
+      "market_cap_rank": 228,
+      "categories": "Seigniorage"
+    },
+    {
+      "symbol": "turbo",
+      "num_categories": 1,
+      "market_cap_rank": 194,
+      "categories": "AI Meme"
+    },
+    {
+      "symbol": "token",
+      "num_categories": 3,
+      "market_cap_rank": 351,
+      "categories": "Discord Bots, Telegram Apps, TokenFi Launchpad"
+    },
+    {
+      "symbol": "alice",
+      "num_categories": 1,
+      "market_cap_rank": 403,
+      "categories": "DaoMaker Ecosystem"
+    },
+    {
+      "symbol": "mew",
+      "num_categories": 1,
+      "market_cap_rank": 174,
+      "categories": "Cat-Themed"
+    },
+    {
+      "symbol": "auction",
+      "num_categories": 1,
+      "market_cap_rank": 398,
+      "categories": "Launchpad"
+    },
+    {
+      "symbol": "ethfi",
+      "num_categories": 1,
+      "market_cap_rank": 175,
+      "categories": "Ether.fi Ecosystem"
+    },
+    {
+      "symbol": "powr",
+      "num_categories": 1,
+      "market_cap_rank": 378,
+      "categories": "Energy"
+    },
+    {
+      "symbol": "kava",
+      "num_categories": 1,
+      "market_cap_rank": 146,
+      "categories": "Finance / Banking"
+    },
+    {
+      "symbol": "pyth",
+      "num_categories": 1,
+      "market_cap_rank": 74,
+      "categories": "Manta Network Ecosystem"
+    },
+    {
+      "symbol": "hft",
+      "num_categories": 1,
+      "market_cap_rank": 457,
+      "categories": "MEV Protection"
+    },
+    {
+      "symbol": "ustc",
+      "num_categories": 1,
+      "market_cap_rank": 402,
+      "categories": "Terra Ecosystem"
+    }
+  ],
+  "disappeared": [
+    {
+      "symbol": "lunc",
+      "num_categories": 1,
+      "market_cap_rank": 149,
+      "categories": "Terra Ecosystem"
+    },
+    {
+      "symbol": "wemix",
+      "num_categories": 1,
+      "market_cap_rank": 144,
+      "categories": "WEMIX Ecosystem"
+    },
+    {
+      "symbol": "elf",
+      "num_categories": 1,
+      "market_cap_rank": 230,
+      "categories": "Aelf Ecosystem"
+    },
+    {
+      "symbol": "corgiai",
+      "num_categories": 1,
+      "market_cap_rank": 171,
+      "categories": "AI Meme"
+    },
+    {
+      "symbol": "alph",
+      "num_categories": 1,
+      "market_cap_rank": 393,
+      "categories": "Alephium Ecosystem"
+    },
+    {
+      "symbol": "boden",
+      "num_categories": 1,
+      "market_cap_rank": 447,
+      "categories": "Parody Meme"
+    },
+    {
+      "symbol": "dog",
+      "num_categories": 2,
+      "market_cap_rank": 126,
+      "categories": "Bitcoin Ecosystem, Runes"
+    },
+    {
+      "symbol": "orai",
+      "num_categories": 2,
+      "market_cap_rank": 318,
+      "categories": "Big Data, Oraichain Ecosystem"
+    },
+    {
+      "symbol": "reth",
+      "num_categories": 1,
+      "market_cap_rank": 56,
+      "categories": "Manta Network Ecosystem"
+    },
+    {
+      "symbol": "floki",
+      "num_categories": 1,
+      "market_cap_rank": 59,
+      "categories": "TokenFi Launchpad"
+    },
+    {
+      "symbol": "redo",
+      "num_categories": 1,
+      "market_cap_rank": 404,
+      "categories": "TON Meme"
+    },
+    {
+      "symbol": "lyx",
+      "num_categories": 1,
+      "market_cap_rank": 475,
+      "categories": "Lukso Ecosystem"
+    },
+    {
+      "symbol": "shib",
+      "num_categories": 1,
+      "market_cap_rank": 14,
+      "categories": "Shibarium Ecosystem"
+    },
+    {
+      "symbol": "xrd",
+      "num_categories": 1,
+      "market_cap_rank": 203,
+      "categories": "Radix Ecosystem"
+    },
+    {
+      "symbol": "frax",
+      "num_categories": 1,
+      "market_cap_rank": 119,
+      "categories": "Seigniorage"
+    },
+    {
+      "symbol": "mother",
+      "num_categories": 1,
+      "market_cap_rank": 477,
+      "categories": "Celebrity-Themed"
+    },
+    {
+      "symbol": "$wen",
+      "num_categories": 1,
+      "market_cap_rank": 459,
+      "categories": "Fractionalized NFT"
+    },
+    {
+      "symbol": "degen",
+      "num_categories": 1,
+      "market_cap_rank": 386,
+      "categories": "Farcaster Ecosystem"
+    },
+    {
+      "symbol": "ctk",
+      "num_categories": 1,
+      "market_cap_rank": 411,
+      "categories": "Cybersecurity"
+    },
+    {
+      "symbol": "cvx",
+      "num_categories": 3,
+      "market_cap_rank": 238,
+      "categories": "Metagovernance, Yield Aggregator, Yield Optimizer"
+    },
+    {
+      "symbol": "gno",
+      "num_categories": 3,
+      "market_cap_rank": 104,
+      "categories": "MEV Protection, Prediction Markets, SideChain"
+    },
+    {
+      "symbol": "weeth",
+      "num_categories": 3,
+      "market_cap_rank": 26,
+      "categories": "Ether.fi Ecosystem, Liquid Restaking Tokens, Restaking"
+    },
+    {
+      "symbol": "audio",
+      "num_categories": 1,
+      "market_cap_rank": 282,
+      "categories": "Music"
+    },
+    {
+      "symbol": "ray",
+      "num_categories": 1,
+      "market_cap_rank": 152,
+      "categories": "Launchpad"
+    },
+    {
+      "symbol": "trac",
+      "num_categories": 1,
+      "market_cap_rank": 201,
+      "categories": "Decentralized Science (DeSci)"
+    },
+    {
+      "symbol": "wif",
+      "num_categories": 1,
+      "market_cap_rank": 51,
+      "categories": "Solana Meme"
+    },
+    {
+      "symbol": "hnt",
+      "num_categories": 1,
+      "market_cap_rank": 131,
+      "categories": "Communication"
+    },
+    {
+      "symbol": "paal",
+      "num_categories": 3,
+      "market_cap_rank": 245,
+      "categories": "Discord Bots, PAAL AI, Telegram Apps"
+    },
+    {
+      "symbol": "mog",
+      "num_categories": 1,
+      "market_cap_rank": 132,
+      "categories": "Cat-Themed"
+    },
+    {
+      "symbol": "xaut",
+      "num_categories": 2,
+      "market_cap_rank": 137,
+      "categories": "Asset-backed Tokens, Tokenized Gold"
+    },
+    {
+      "symbol": "okt",
+      "num_categories": 1,
+      "market_cap_rank": 264,
+      "categories": "OEC Ecosystem"
+    },
+    {
+      "symbol": "ant",
+      "num_categories": 1,
+      "market_cap_rank": 189,
+      "categories": "Software"
+    },
+    {
+      "symbol": "ezeth",
+      "num_categories": 3,
+      "market_cap_rank": 32,
+      "categories": "Blast Ecosystem, Linea Ecosystem, Mode Ecosystem"
+    },
+    {
+      "symbol": "rbn",
+      "num_categories": 2,
+      "market_cap_rank": 490,
+      "categories": "Options, Structured Products"
+    },
+    {
+      "symbol": "rlb",
+      "num_categories": 1,
+      "market_cap_rank": 261,
+      "categories": "Gambling"
+    },
+    {
+      "symbol": "kuji",
+      "num_categories": 1,
+      "market_cap_rank": 323,
+      "categories": "Kujira Ecosystem"
+    },
+    {
+      "symbol": "kda",
+      "num_categories": 1,
+      "market_cap_rank": 303,
+      "categories": "Kadena Ecosystem"
+    },
+    {
+      "symbol": "ewt",
+      "num_categories": 2,
+      "market_cap_rank": 359,
+      "categories": "Regenerative Finance (ReFi), Energy"
+    },
+    {
+      "symbol": "pepe",
+      "num_categories": 1,
+      "market_cap_rank": 25,
+      "categories": "Frog-Themed"
+    },
+    {
+      "symbol": "pro",
+      "num_categories": 1,
+      "market_cap_rank": 456,
+      "categories": "Real Estate"
+    },
+    {
+      "symbol": "tlos",
+      "num_categories": 1,
+      "market_cap_rank": 462,
+      "categories": "Telos Ecosystem"
+    },
+    {
+      "symbol": "wbtc",
+      "num_categories": 2,
+      "market_cap_rank": 15,
+      "categories": "Tokenized BTC, Wrapped-Tokens"
+    },
+    {
+      "symbol": "xdc",
+      "num_categories": 1,
+      "market_cap_rank": 148,
+      "categories": "XDC Ecosystem"
+    },
+    {
+      "symbol": "safe",
+      "num_categories": 1,
+      "market_cap_rank": 126,
+      "categories": "Wallets"
+    },
+    {
+      "symbol": "acx",
+      "num_categories": 2,
+      "market_cap_rank": 345,
+      "categories": "Boba Network Ecosystem, Intent"
+    },
+    {
+      "symbol": "eurs",
+      "num_categories": 1,
+      "market_cap_rank": 339,
+      "categories": "EUR Stablecoin"
+    },
+    {
+      "symbol": "rndr",
+      "num_categories": 2,
+      "market_cap_rank": 35,
+      "categories": "DePIN, Metaverse"
+    },
+    {
+      "symbol": "btt",
+      "num_categories": 1,
+      "market_cap_rank": 91,
+      "categories": "BitTorrent Ecosystem"
+    },
+    {
+      "symbol": "ixs",
+      "num_categories": 1,
+      "market_cap_rank": 368,
+      "categories": "Poolz Finance Launchpad"
+    },
+    {
+      "symbol": "kag",
+      "num_categories": 1,
+      "market_cap_rank": 410,
+      "categories": "Tokenized Silver"
+    },
+    {
+      "symbol": "venom",
+      "num_categories": 1,
+      "market_cap_rank": 237,
+      "categories": "Venom Ecosystem"
+    },
+    {
+      "symbol": "brett",
+      "num_categories": 1,
+      "market_cap_rank": 66,
+      "categories": "Base Meme"
+    },
+    {
+      "symbol": "nexo",
+      "num_categories": 1,
+      "market_cap_rank": 115,
+      "categories": "Finance / Banking"
+    },
+    {
+      "symbol": "purr",
+      "num_categories": 1,
+      "market_cap_rank": 459,
+      "categories": "Hyperliquid Ecosystem"
+    },
+    {
+      "symbol": "iq",
+      "num_categories": 1,
+      "market_cap_rank": 379,
+      "categories": "Media"
+    },
+    {
+      "symbol": "merl",
+      "num_categories": 1,
+      "market_cap_rank": 405,
+      "categories": "Merlin Chain Ecosystem"
+    },
+    {
+      "symbol": "dao",
+      "num_categories": 1,
+      "market_cap_rank": 334,
+      "categories": "DaoMaker Ecosystem"
+    },
+    {
+      "symbol": "msol",
+      "num_categories": 1,
+      "market_cap_rank": 100,
+      "categories": "Liquid Staked SOL"
+    },
+    {
+      "symbol": "nxm",
+      "num_categories": 1,
+      "market_cap_rank": 212,
+      "categories": "Insurance"
+    },
+    {
+      "symbol": "ceth",
+      "num_categories": 2,
+      "market_cap_rank": 177,
+      "categories": "Compound Tokens, cToken"
+    },
+    {
+      "symbol": "aitech",
+      "num_categories": 1,
+      "market_cap_rank": 460,
+      "categories": "ChainGPT Pad"
+    },
+    {
+      "symbol": "ohm",
+      "num_categories": 1,
+      "market_cap_rank": 269,
+      "categories": "Rebase Tokens"
+    },
+    {
+      "symbol": "zig",
+      "num_categories": 1,
+      "market_cap_rank": 372,
+      "categories": "Injective Ecosystem"
+    }
+  ],
+  "detailed_changes": [
+    {
+      "symbol": "twt",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "1",
+          "new_value": "2"
+        },
+        {
+          "field": "market_cap_rank",
+          "old_value": "158",
+          "new_value": "157"
+        },
+        {
+          "field": "categories",
+          "old_value": "Account Abstraction",
+          "new_value": "Account Abstraction, Wallets"
+        }
+      ]
+    },
+    {
+      "symbol": "yfi",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "1",
+          "new_value": "2"
+        },
+        {
+          "field": "categories",
+          "old_value": "Yearn Ecosystem",
+          "new_value": "Yearn Ecosystem, Yield Aggregator"
+        }
+      ]
+    },
+    {
+      "symbol": "ankr",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "4",
+          "new_value": "7"
+        },
+        {
+          "field": "categories",
+          "old_value": "Polygon zkEVM Ecosystem, Rollups-as-a-Service (RaaS), Scroll Ecosystem, Technology & Science",
+          "new_value": "Blast Ecosystem, Linea Ecosystem, Mode Ecosystem, Polygon zkEVM Ecosystem, Rollups-as-a-Service (RaaS), Scroll Ecosystem, Technology & Science"
+        }
+      ]
+    },
+    {
+      "symbol": "bb",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "1",
+          "new_value": "2"
+        },
+        {
+          "field": "market_cap_rank",
+          "old_value": "287",
+          "new_value": "288"
+        },
+        {
+          "field": "categories",
+          "old_value": "Binance Megadrop",
+          "new_value": "Binance Megadrop, Bitcoin Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "fil",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "1",
+          "new_value": "2"
+        },
+        {
+          "field": "categories",
+          "old_value": "Sequoia Capital Portfolio",
+          "new_value": "DePIN, Sequoia Capital Portfolio"
+        }
+      ]
+    },
+    {
+      "symbol": "pendle",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "7",
+          "new_value": "8"
+        },
+        {
+          "field": "categories",
+          "old_value": "Derivatives, Fixed Interest, Liquid Restaking Governance Tokens, LRTfi, LSDFi, Olympus Pro, Yield Tokenization",
+          "new_value": "Derivatives, Fixed Interest, Liquid Restaking Governance Tokens, LRTfi, LSDFi, Olympus Pro, Restaking, Yield Tokenization"
+        }
+      ]
+    },
+    {
+      "symbol": "axs",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "5",
+          "new_value": "6"
+        },
+        {
+          "field": "categories",
+          "old_value": "Axie Infinity Ecosystem, Breeding, Card Games, Gaming Governance Token, Gaming Utility Token",
+          "new_value": "Axie Infinity Ecosystem, Breeding, Card Games, Gaming Governance Token, Gaming Utility Token, Metaverse"
+        }
+      ]
+    }
+  ]
+}
