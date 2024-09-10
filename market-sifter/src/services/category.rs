@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 use indicatif::ProgressBar;
-use log::error;
+use log::{error, warn};
 
 use coingecko_sdk_rs::client::CoinGeckoClient;
 
@@ -13,7 +13,7 @@ pub async fn get_categories_data(cg_client: CoinGeckoClient) -> Vec<CategoryCoin
     let categories_data = match read_categories_data_from_file() {
         Ok(data) => data,
         Err(e) => {
-            error!(
+            warn!(
                 "Error reading from file: {}. Fetching categories from API.",
                 e
             );
