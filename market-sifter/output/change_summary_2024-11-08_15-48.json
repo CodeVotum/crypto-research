@@ -1,0 +1,727 @@
+{
+  "appeared": [
+    {
+      "symbol": "omg",
+      "num_categories": 1,
+      "market_cap_rank": 859,
+      "categories": "Boba Network Ecosystem"
+    },
+    {
+      "symbol": "mina",
+      "num_categories": 1,
+      "market_cap_rank": 137,
+      "categories": "Privacy Blockchain"
+    },
+    {
+      "symbol": "quick",
+      "num_categories": 1,
+      "market_cap_rank": 967,
+      "categories": "Dogechain Ecosystem"
+    },
+    {
+      "symbol": "movr",
+      "num_categories": 1,
+      "market_cap_rank": 489,
+      "categories": "Meter Ecosystem"
+    },
+    {
+      "symbol": "not",
+      "num_categories": 2,
+      "market_cap_rank": 135,
+      "categories": "Tap to Earn, TON Meme"
+    },
+    {
+      "symbol": "safe",
+      "num_categories": 1,
+      "market_cap_rank": 148,
+      "categories": "Wallets"
+    },
+    {
+      "symbol": "rif",
+      "num_categories": 1,
+      "market_cap_rank": 465,
+      "categories": "Rootstock Ecosystem"
+    },
+    {
+      "symbol": "woo",
+      "num_categories": 1,
+      "market_cap_rank": 192,
+      "categories": "OKT Chain Ecosystem"
+    },
+    {
+      "symbol": "gala",
+      "num_categories": 2,
+      "market_cap_rank": 100,
+      "categories": "GalaChain Ecosystem, Gaming Platform"
+    },
+    {
+      "symbol": "ens",
+      "num_categories": 1,
+      "market_cap_rank": 142,
+      "categories": "Name Service"
+    },
+    {
+      "symbol": "egld",
+      "num_categories": 1,
+      "market_cap_rank": 113,
+      "categories": "MultiversX Ecosystem"
+    },
+    {
+      "symbol": "goat",
+      "num_categories": 3,
+      "market_cap_rank": 111,
+      "categories": "AI Meme, Pump.fun Ecosystem, Terminal of Truths"
+    },
+    {
+      "symbol": "flow",
+      "num_categories": 1,
+      "market_cap_rank": 103,
+      "categories": "Sports"
+    },
+    {
+      "symbol": "arkm",
+      "num_categories": 1,
+      "market_cap_rank": 133,
+      "categories": "Perpetuals"
+    },
+    {
+      "symbol": "gas",
+      "num_categories": 1,
+      "market_cap_rank": 264,
+      "categories": "NEO Ecosystem"
+    },
+    {
+      "symbol": "eth",
+      "num_categories": 1,
+      "market_cap_rank": 276,
+      "categories": "Bridged-Tokens"
+    },
+    {
+      "symbol": "strk",
+      "num_categories": 2,
+      "market_cap_rank": 101,
+      "categories": "Consensys Portfolio, Starknet Ecosystem"
+    },
+    {
+      "symbol": "moodeng",
+      "num_categories": 1,
+      "market_cap_rank": 237,
+      "categories": "Zoo-Themed"
+    },
+    {
+      "symbol": "cow",
+      "num_categories": 2,
+      "market_cap_rank": 389,
+      "categories": "Intent, MEV Protection"
+    }
+  ],
+  "disappeared": [
+    {
+      "symbol": "hft",
+      "num_categories": 1,
+      "market_cap_rank": 520,
+      "categories": "MEV Protection"
+    },
+    {
+      "symbol": "turbo",
+      "num_categories": 1,
+      "market_cap_rank": 204,
+      "categories": "AI Meme"
+    },
+    {
+      "symbol": "fida",
+      "num_categories": 1,
+      "market_cap_rank": 730,
+      "categories": "Big Data"
+    },
+    {
+      "symbol": "kava",
+      "num_categories": 1,
+      "market_cap_rank": 179,
+      "categories": "Finance / Banking"
+    },
+    {
+      "symbol": "vidt",
+      "num_categories": 1,
+      "market_cap_rank": 654,
+      "categories": "Cybersecurity"
+    },
+    {
+      "symbol": "wld",
+      "num_categories": 1,
+      "market_cap_rank": 110,
+      "categories": "Decentralized Identifier (DID)"
+    },
+    {
+      "symbol": "aevo",
+      "num_categories": 1,
+      "market_cap_rank": 189,
+      "categories": "Perpetuals"
+    },
+    {
+      "symbol": "w",
+      "num_categories": 2,
+      "market_cap_rank": 125,
+      "categories": "Cross-chain Communication, Interoperability"
+    },
+    {
+      "symbol": "pendle",
+      "num_categories": 7,
+      "market_cap_rank": 130,
+      "categories": "Derivatives, Fixed Interest, Liquid Restaking Governance Tokens, LRTfi, LSDFi, Restaking, Yield Tokenization Protocol"
+    },
+    {
+      "symbol": "dogs",
+      "num_categories": 1,
+      "market_cap_rank": 123,
+      "categories": "TON Meme"
+    },
+    {
+      "symbol": "popcat",
+      "num_categories": 1,
+      "market_cap_rank": 114,
+      "categories": "Cat-Themed"
+    },
+    {
+      "symbol": "bome",
+      "num_categories": 1,
+      "market_cap_rank": 135,
+      "categories": "Presale Meme "
+    },
+    {
+      "symbol": "sfp",
+      "num_categories": 1,
+      "market_cap_rank": 160,
+      "categories": "Wallets"
+    },
+    {
+      "symbol": "nkn",
+      "num_categories": 1,
+      "market_cap_rank": 587,
+      "categories": "Communication"
+    },
+    {
+      "symbol": "1inch",
+      "num_categories": 1,
+      "market_cap_rank": 178,
+      "categories": "Number"
+    }
+  ],
+  "detailed_changes": [
+    {
+      "symbol": "chr",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "291",
+          "new_value": "369"
+        }
+      ]
+    },
+    {
+      "symbol": "powr",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "396",
+          "new_value": "424"
+        }
+      ]
+    },
+    {
+      "symbol": "dash",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "191",
+          "new_value": "240"
+        }
+      ]
+    },
+    {
+      "symbol": "people",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "184",
+          "new_value": "228"
+        }
+      ]
+    },
+    {
+      "symbol": "ankr",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "4",
+          "new_value": "3"
+        },
+        {
+          "field": "market_cap_rank",
+          "old_value": "226",
+          "new_value": "259"
+        },
+        {
+          "field": "categories",
+          "old_value": "Blast Ecosystem, Mode Ecosystem, Scroll Ecosystem, Technology & Science",
+          "new_value": "Blast Ecosystem, Mode Ecosystem, Scroll Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "ygg",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "313",
+          "new_value": "317"
+        }
+      ]
+    },
+    {
+      "symbol": "ordi",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "3",
+          "new_value": "2"
+        },
+        {
+          "field": "market_cap_rank",
+          "old_value": "112",
+          "new_value": "117"
+        },
+        {
+          "field": "categories",
+          "old_value": "Bitcoin Ecosystem, BRC-20, Inscriptions",
+          "new_value": "BRC-20, Inscriptions"
+        }
+      ]
+    },
+    {
+      "symbol": "iotx",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "182",
+          "new_value": "199"
+        }
+      ]
+    },
+    {
+      "symbol": "sand",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "118",
+          "new_value": "138"
+        }
+      ]
+    },
+    {
+      "symbol": "fxs",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "299",
+          "new_value": "316"
+        }
+      ]
+    },
+    {
+      "symbol": "zeta",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "265",
+          "new_value": "206"
+        }
+      ]
+    },
+    {
+      "symbol": "yfi",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "282",
+          "new_value": "325"
+        }
+      ]
+    },
+    {
+      "symbol": "c98",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "407",
+          "new_value": "436"
+        }
+      ]
+    },
+    {
+      "symbol": "super",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "176",
+          "new_value": "145"
+        },
+        {
+          "field": "categories",
+          "old_value": "Collectibles",
+          "new_value": "NFT Marketplace"
+        }
+      ]
+    },
+    {
+      "symbol": "ustc",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "2",
+          "new_value": "1"
+        },
+        {
+          "field": "market_cap_rank",
+          "old_value": "401",
+          "new_value": "396"
+        },
+        {
+          "field": "categories",
+          "old_value": "Terra Classic Ecosystem, Terra Ecosystem",
+          "new_value": "Terra Classic Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "zil",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "215",
+          "new_value": "244"
+        }
+      ]
+    },
+    {
+      "symbol": "auction",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "425",
+          "new_value": "486"
+        }
+      ]
+    },
+    {
+      "symbol": "ace",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "449",
+          "new_value": "516"
+        }
+      ]
+    },
+    {
+      "symbol": "ilv",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "208",
+          "new_value": "295"
+        }
+      ]
+    },
+    {
+      "symbol": "xai",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "371",
+          "new_value": "348"
+        }
+      ]
+    },
+    {
+      "symbol": "astr",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "154",
+          "new_value": "181"
+        }
+      ]
+    },
+    {
+      "symbol": "dym",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "194",
+          "new_value": "217"
+        }
+      ]
+    },
+    {
+      "symbol": "chz",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "132",
+          "new_value": "153"
+        }
+      ]
+    },
+    {
+      "symbol": "twt",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "167",
+          "new_value": "176"
+        }
+      ]
+    },
+    {
+      "symbol": "ethw",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "260",
+          "new_value": "209"
+        }
+      ]
+    },
+    {
+      "symbol": "axs",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "102",
+          "new_value": "110"
+        }
+      ]
+    },
+    {
+      "symbol": "ethfi",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "232",
+          "new_value": "216"
+        }
+      ]
+    },
+    {
+      "symbol": "syn",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "410",
+          "new_value": "415"
+        }
+      ]
+    },
+    {
+      "symbol": "cyber",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "473",
+          "new_value": "497"
+        }
+      ]
+    },
+    {
+      "symbol": "skl",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "285",
+          "new_value": "302"
+        }
+      ]
+    },
+    {
+      "symbol": "edu",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "312",
+          "new_value": "387"
+        }
+      ]
+    },
+    {
+      "symbol": "sushi",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "346",
+          "new_value": "372"
+        }
+      ]
+    },
+    {
+      "symbol": "alice",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "417",
+          "new_value": "461"
+        }
+      ]
+    },
+    {
+      "symbol": "iota",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "142",
+          "new_value": "179"
+        }
+      ]
+    },
+    {
+      "symbol": "cake",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "137",
+          "new_value": "162"
+        }
+      ]
+    },
+    {
+      "symbol": "ach",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "415",
+          "new_value": "455"
+        }
+      ]
+    },
+    {
+      "symbol": "token",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "444",
+          "new_value": "528"
+        }
+      ]
+    },
+    {
+      "symbol": "snx",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "138",
+          "new_value": "161"
+        }
+      ]
+    },
+    {
+      "symbol": "lrc",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "302",
+          "new_value": "342"
+        }
+      ]
+    },
+    {
+      "symbol": "blur",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "2",
+          "new_value": "1"
+        },
+        {
+          "field": "market_cap_rank",
+          "old_value": "170",
+          "new_value": "173"
+        },
+        {
+          "field": "categories",
+          "old_value": "NFT Marketplace, NFTFi",
+          "new_value": "NFTFi"
+        }
+      ]
+    },
+    {
+      "symbol": "crv",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "174",
+          "new_value": "219"
+        }
+      ]
+    },
+    {
+      "symbol": "ghst",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "645",
+          "new_value": "728"
+        }
+      ]
+    },
+    {
+      "symbol": "kda",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "296",
+          "new_value": "343"
+        }
+      ]
+    },
+    {
+      "symbol": "vanry",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "325",
+          "new_value": "402"
+        }
+      ]
+    },
+    {
+      "symbol": "bb",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "335",
+          "new_value": "410"
+        }
+      ]
+    },
+    {
+      "symbol": "mavia",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "685",
+          "new_value": "749"
+        }
+      ]
+    },
+    {
+      "symbol": "gmt",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "181",
+          "new_value": "193"
+        }
+      ]
+    }
+  ]
+}

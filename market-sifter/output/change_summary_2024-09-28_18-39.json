@@ -1,0 +1,24 @@
+{
+  "appeared": [
+    {
+      "symbol": "ghst",
+      "num_categories": 1,
+      "market_cap_rank": 645,
+      "categories": "Gotchiverse"
+    },
+    {
+      "symbol": "fida",
+      "num_categories": 1,
+      "market_cap_rank": 730,
+      "categories": "Big Data"
+    },
+    {
+      "symbol": "kda",
+      "num_categories": 1,
+      "market_cap_rank": 296,
+      "categories": "Kadena Ecosystem"
+    }
+  ],
+  "disappeared": [],
+  "detailed_changes": []
+}

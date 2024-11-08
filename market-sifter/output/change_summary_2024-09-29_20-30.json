@@ -1,0 +1,138 @@
+{
+  "appeared": [],
+  "disappeared": [
+    {
+      "symbol": "ldo",
+      "num_categories": 1,
+      "market_cap_rank": 81,
+      "categories": "Liquid Staking Governance Tokens"
+    },
+    {
+      "symbol": "arb",
+      "num_categories": 1,
+      "market_cap_rank": 50,
+      "categories": "eGirl Capital Portfolio"
+    },
+    {
+      "symbol": "tia",
+      "num_categories": 1,
+      "market_cap_rank": 82,
+      "categories": "Modular Blockchain"
+    },
+    {
+      "symbol": "brett",
+      "num_categories": 3,
+      "market_cap_rank": 94,
+      "categories": "Base Meme, Frog-Themed, The Boy’s Club"
+    },
+    {
+      "symbol": "grt",
+      "num_categories": 1,
+      "market_cap_rank": 60,
+      "categories": "Analytics"
+    },
+    {
+      "symbol": "ondo",
+      "num_categories": 1,
+      "market_cap_rank": 80,
+      "categories": "Real World Assets (RWA)"
+    },
+    {
+      "symbol": "not",
+      "num_categories": 1,
+      "market_cap_rank": 88,
+      "categories": "Tap to Earn"
+    },
+    {
+      "symbol": "vet",
+      "num_categories": 2,
+      "market_cap_rank": 51,
+      "categories": "Business Platform, Internet of Things (IOT)"
+    },
+    {
+      "symbol": "atom",
+      "num_categories": 2,
+      "market_cap_rank": 55,
+      "categories": "Archway Ecosystem, Evmos Ecosystem"
+    },
+    {
+      "symbol": "sei",
+      "num_categories": 3,
+      "market_cap_rank": 76,
+      "categories": "OKX Ventures Portfolio, Parallelized EVM, Sei Ecosystem"
+    },
+    {
+      "symbol": "klay",
+      "num_categories": 1,
+      "market_cap_rank": 93,
+      "categories": "Klaytn Ecosystem"
+    },
+    {
+      "symbol": "flow",
+      "num_categories": 1,
+      "market_cap_rank": 90,
+      "categories": "Sports"
+    },
+    {
+      "symbol": "strk",
+      "num_categories": 2,
+      "market_cap_rank": 96,
+      "categories": "Consensys Portfolio, Starknet Ecosystem"
+    },
+    {
+      "symbol": "egld",
+      "num_categories": 1,
+      "market_cap_rank": 97,
+      "categories": "MultiversX Ecosystem"
+    },
+    {
+      "symbol": "rune",
+      "num_categories": 1,
+      "market_cap_rank": 64,
+      "categories": "Bridge Governance Tokens"
+    },
+    {
+      "symbol": "theta",
+      "num_categories": 3,
+      "market_cap_rank": 68,
+      "categories": "Entertainment, SocialFi, Theta Ecosystem"
+    },
+    {
+      "symbol": "jup",
+      "num_categories": 1,
+      "market_cap_rank": 75,
+      "categories": "Dex Aggregator"
+    },
+    {
+      "symbol": "pyth",
+      "num_categories": 1,
+      "market_cap_rank": 73,
+      "categories": "Manta Network Ecosystem"
+    },
+    {
+      "symbol": "inj",
+      "num_categories": 1,
+      "market_cap_rank": 54,
+      "categories": "Secret Ecosystem"
+    },
+    {
+      "symbol": "mkr",
+      "num_categories": 2,
+      "market_cap_rank": 57,
+      "categories": "RWA Protocol, Stablecoin Protocol"
+    },
+    {
+      "symbol": "gala",
+      "num_categories": 2,
+      "market_cap_rank": 99,
+      "categories": "GalaChain Ecosystem, Gaming Platform"
+    },
+    {
+      "symbol": "wif",
+      "num_categories": 1,
+      "market_cap_rank": 53,
+      "categories": "Solana Meme"
+    }
+  ],
+  "detailed_changes": []
+}
