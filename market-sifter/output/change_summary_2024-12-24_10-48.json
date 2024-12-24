@@ -1,0 +1,475 @@
+{
+  "appeared": [
+    {
+      "symbol": "morpho",
+      "num_categories": 1,
+      "market_cap_rank": 222,
+      "categories": "Morpho Ecosystem"
+    },
+    {
+      "symbol": "popcat",
+      "num_categories": 2,
+      "market_cap_rank": 142,
+      "categories": "Cat-Themed, Murad Picks"
+    },
+    {
+      "symbol": "doge",
+      "num_categories": 1,
+      "market_cap_rank": 163,
+      "categories": "Binance-Peg Tokens"
+    },
+    {
+      "symbol": "fartcoin",
+      "num_categories": 4,
+      "market_cap_rank": 129,
+      "categories": "AI Meme, Binance Alpha Spotlight, Pump.fun Ecosystem, Terminal of Truths"
+    },
+    {
+      "symbol": "pendle",
+      "num_categories": 8,
+      "market_cap_rank": 132,
+      "categories": "BTCfi, Derivatives, Fixed Interest, Liquid Restaking Governance Tokens, LRTfi, LSDFi, Restaking, Yield Tokenization Protocol"
+    },
+    {
+      "symbol": "mana",
+      "num_categories": 1,
+      "market_cap_rank": 125,
+      "categories": "Entertainment"
+    },
+    {
+      "symbol": "pnut",
+      "num_categories": 2,
+      "market_cap_rank": 147,
+      "categories": "Memorial Themed, Zoo-Themed"
+    },
+    {
+      "symbol": "uxlink",
+      "num_categories": 1,
+      "market_cap_rank": 288,
+      "categories": "SocialFi"
+    },
+    {
+      "symbol": "w",
+      "num_categories": 1,
+      "market_cap_rank": 137,
+      "categories": "Cross-chain Communication"
+    },
+    {
+      "symbol": "yfi",
+      "num_categories": 2,
+      "market_cap_rank": 283,
+      "categories": "Yearn Ecosystem, Yield Aggregator"
+    },
+    {
+      "symbol": "sushi",
+      "num_categories": 1,
+      "market_cap_rank": 292,
+      "categories": "OEC Ecosystem"
+    },
+    {
+      "symbol": "kda",
+      "num_categories": 1,
+      "market_cap_rank": 282,
+      "categories": "Kadena Ecosystem"
+    },
+    {
+      "symbol": "vana",
+      "num_categories": 1,
+      "market_cap_rank": 194,
+      "categories": "Venture Capital Portfolios"
+    },
+    {
+      "symbol": "jup",
+      "num_categories": 1,
+      "market_cap_rank": 109,
+      "categories": "Dex Aggregator"
+    },
+    {
+      "symbol": "zen",
+      "num_categories": 2,
+      "market_cap_rank": 176,
+      "categories": "Anime-Themed, Masternodes"
+    }
+  ],
+  "disappeared": [
+    {
+      "symbol": "goat",
+      "num_categories": 3,
+      "market_cap_rank": 111,
+      "categories": "AI Meme, Pump.fun Ecosystem, Terminal of Truths"
+    },
+    {
+      "symbol": "sand",
+      "num_categories": 1,
+      "market_cap_rank": 138,
+      "categories": "Simulation Games"
+    },
+    {
+      "symbol": "dym",
+      "num_categories": 1,
+      "market_cap_rank": 217,
+      "categories": "Rollups-as-a-Service (RaaS)"
+    },
+    {
+      "symbol": "moodeng",
+      "num_categories": 1,
+      "market_cap_rank": 237,
+      "categories": "Zoo-Themed"
+    },
+    {
+      "symbol": "people",
+      "num_categories": 1,
+      "market_cap_rank": 228,
+      "categories": "PolitiFi"
+    },
+    {
+      "symbol": "gala",
+      "num_categories": 2,
+      "market_cap_rank": 100,
+      "categories": "GalaChain Ecosystem, Gaming Platform"
+    },
+    {
+      "symbol": "dash",
+      "num_categories": 1,
+      "market_cap_rank": 240,
+      "categories": "Masternodes"
+    }
+  ],
+  "detailed_changes": [
+    {
+      "symbol": "not",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "135",
+          "new_value": "161"
+        }
+      ]
+    },
+    {
+      "symbol": "cake",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "162",
+          "new_value": "153"
+        },
+        {
+          "field": "categories",
+          "old_value": "Linea Ecosystem, opBNB Ecocystem, Polygon zkEVM Ecosystem",
+          "new_value": "Linea Ecosystem, opBNB Ecosystem, Polygon zkEVM Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "zil",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "244",
+          "new_value": "220"
+        }
+      ]
+    },
+    {
+      "symbol": "snx",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "161",
+          "new_value": "150"
+        }
+      ]
+    },
+    {
+      "symbol": "woo",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "192",
+          "new_value": "228"
+        }
+      ]
+    },
+    {
+      "symbol": "crv",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "219",
+          "new_value": "107"
+        }
+      ]
+    },
+    {
+      "symbol": "super",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "145",
+          "new_value": "149"
+        }
+      ]
+    },
+    {
+      "symbol": "gas",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "264",
+          "new_value": "277"
+        }
+      ]
+    },
+    {
+      "symbol": "iota",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "179",
+          "new_value": "110"
+        }
+      ]
+    },
+    {
+      "symbol": "ordi",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "117",
+          "new_value": "180"
+        }
+      ]
+    },
+    {
+      "symbol": "ens",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "142",
+          "new_value": "106"
+        }
+      ]
+    },
+    {
+      "symbol": "astr",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "181",
+          "new_value": "207"
+        }
+      ]
+    },
+    {
+      "symbol": "eth",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "276",
+          "new_value": "279"
+        }
+      ]
+    },
+    {
+      "symbol": "dydx",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "119",
+          "new_value": "118"
+        }
+      ]
+    },
+    {
+      "symbol": "ilv",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "295",
+          "new_value": "284"
+        }
+      ]
+    },
+    {
+      "symbol": "arkm",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "133",
+          "new_value": "198"
+        }
+      ]
+    },
+    {
+      "symbol": "iotx",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "199",
+          "new_value": "248"
+        }
+      ]
+    },
+    {
+      "symbol": "ethw",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "209",
+          "new_value": "249"
+        }
+      ]
+    },
+    {
+      "symbol": "egld",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "113",
+          "new_value": "123"
+        }
+      ]
+    },
+    {
+      "symbol": "safe",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "148",
+          "new_value": "189"
+        }
+      ]
+    },
+    {
+      "symbol": "chz",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "153",
+          "new_value": "134"
+        }
+      ]
+    },
+    {
+      "symbol": "drift",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "286",
+          "new_value": "266"
+        }
+      ]
+    },
+    {
+      "symbol": "gmt",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "193",
+          "new_value": "250"
+        }
+      ]
+    },
+    {
+      "symbol": "axs",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "5",
+          "new_value": "4"
+        },
+        {
+          "field": "market_cap_rank",
+          "old_value": "110",
+          "new_value": "121"
+        },
+        {
+          "field": "categories",
+          "old_value": "Axie Infinity Ecosystem, Breeding, Card Games, Gaming Governance Token, Gaming Utility Token",
+          "new_value": "Axie Infinity Ecosystem, Breeding, Card Games, Gaming Governance Token"
+        }
+      ]
+    },
+    {
+      "symbol": "flow",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "103",
+          "new_value": "108"
+        }
+      ]
+    },
+    {
+      "symbol": "strk",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "101",
+          "new_value": "113"
+        }
+      ]
+    },
+    {
+      "symbol": "mina",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "137",
+          "new_value": "143"
+        }
+      ]
+    },
+    {
+      "symbol": "ankr",
+      "changes": [
+        {
+          "field": "num_categories",
+          "old_value": "3",
+          "new_value": "4"
+        },
+        {
+          "field": "market_cap_rank",
+          "old_value": "259",
+          "new_value": "240"
+        },
+        {
+          "field": "categories",
+          "old_value": "Blast Ecosystem, Mode Ecosystem, Scroll Ecosystem",
+          "new_value": "Blast Ecosystem, Mode Ecosystem, Rollups-as-a-Service (RaaS), Scroll Ecosystem"
+        }
+      ]
+    },
+    {
+      "symbol": "zeta",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "206",
+          "new_value": "255"
+        }
+      ]
+    },
+    {
+      "symbol": "blur",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "173",
+          "new_value": "183"
+        }
+      ]
+    },
+    {
+      "symbol": "twt",
+      "changes": [
+        {
+          "field": "market_cap_rank",
+          "old_value": "176",
+          "new_value": "197"
+        }
+      ]
+    }
+  ]
+}

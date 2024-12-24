@@ -1,0 +1,187 @@
+{
+  "appeared": [
+    {
+      "symbol": "drift",
+      "num_categories": 1,
+      "market_cap_rank": 286,
+      "categories": "Prediction Markets"
+    }
+  ],
+  "disappeared": [
+    {
+      "symbol": "chr",
+      "num_categories": 1,
+      "market_cap_rank": 369,
+      "categories": "Chromia Ecosystem"
+    },
+    {
+      "symbol": "powr",
+      "num_categories": 1,
+      "market_cap_rank": 424,
+      "categories": "Energy"
+    },
+    {
+      "symbol": "omg",
+      "num_categories": 1,
+      "market_cap_rank": 859,
+      "categories": "Boba Network Ecosystem"
+    },
+    {
+      "symbol": "quick",
+      "num_categories": 1,
+      "market_cap_rank": 967,
+      "categories": "Dogechain Ecosystem"
+    },
+    {
+      "symbol": "movr",
+      "num_categories": 1,
+      "market_cap_rank": 489,
+      "categories": "Meter Ecosystem"
+    },
+    {
+      "symbol": "ygg",
+      "num_categories": 1,
+      "market_cap_rank": 317,
+      "categories": "Guild and Scholarship"
+    },
+    {
+      "symbol": "fxs",
+      "num_categories": 1,
+      "market_cap_rank": 316,
+      "categories": "Seigniorage"
+    },
+    {
+      "symbol": "yfi",
+      "num_categories": 2,
+      "market_cap_rank": 325,
+      "categories": "Yearn Ecosystem, Yield Aggregator"
+    },
+    {
+      "symbol": "c98",
+      "num_categories": 1,
+      "market_cap_rank": 436,
+      "categories": "Viction Ecocystem"
+    },
+    {
+      "symbol": "ustc",
+      "num_categories": 1,
+      "market_cap_rank": 396,
+      "categories": "Terra Classic Ecosystem"
+    },
+    {
+      "symbol": "auction",
+      "num_categories": 1,
+      "market_cap_rank": 486,
+      "categories": "Launchpad"
+    },
+    {
+      "symbol": "ace",
+      "num_categories": 1,
+      "market_cap_rank": 516,
+      "categories": "Endurance Ecosystem"
+    },
+    {
+      "symbol": "xai",
+      "num_categories": 2,
+      "market_cap_rank": 348,
+      "categories": "Layer 3 (L3), XAI Ecosystem"
+    },
+    {
+      "symbol": "rif",
+      "num_categories": 1,
+      "market_cap_rank": 465,
+      "categories": "Rootstock Ecosystem"
+    },
+    {
+      "symbol": "syn",
+      "num_categories": 1,
+      "market_cap_rank": 415,
+      "categories": "Olympus Pro Ecosystem"
+    },
+    {
+      "symbol": "cyber",
+      "num_categories": 1,
+      "market_cap_rank": 497,
+      "categories": "Cyber Ecosystem"
+    },
+    {
+      "symbol": "skl",
+      "num_categories": 1,
+      "market_cap_rank": 302,
+      "categories": "Skale Ecosystem"
+    },
+    {
+      "symbol": "edu",
+      "num_categories": 1,
+      "market_cap_rank": 387,
+      "categories": "Education"
+    },
+    {
+      "symbol": "sushi",
+      "num_categories": 1,
+      "market_cap_rank": 372,
+      "categories": "OEC Ecosystem"
+    },
+    {
+      "symbol": "alice",
+      "num_categories": 1,
+      "market_cap_rank": 461,
+      "categories": "DaoMaker Launchpad"
+    },
+    {
+      "symbol": "ach",
+      "num_categories": 1,
+      "market_cap_rank": 455,
+      "categories": "Payment Solutions"
+    },
+    {
+      "symbol": "token",
+      "num_categories": 2,
+      "market_cap_rank": 528,
+      "categories": "Discord Bots, TokenFi Launchpad"
+    },
+    {
+      "symbol": "lrc",
+      "num_categories": 1,
+      "market_cap_rank": 342,
+      "categories": "Loopring Ecosystem"
+    },
+    {
+      "symbol": "ghst",
+      "num_categories": 1,
+      "market_cap_rank": 728,
+      "categories": "Gotchiverse"
+    },
+    {
+      "symbol": "kda",
+      "num_categories": 1,
+      "market_cap_rank": 343,
+      "categories": "Kadena Ecosystem"
+    },
+    {
+      "symbol": "vanry",
+      "num_categories": 1,
+      "market_cap_rank": 402,
+      "categories": "Vanar Chain Ecosystem"
+    },
+    {
+      "symbol": "bb",
+      "num_categories": 1,
+      "market_cap_rank": 410,
+      "categories": "Binance Megadrop"
+    },
+    {
+      "symbol": "mavia",
+      "num_categories": 1,
+      "market_cap_rank": 749,
+      "categories": "Strategy Games"
+    },
+    {
+      "symbol": "cow",
+      "num_categories": 2,
+      "market_cap_rank": 389,
+      "categories": "Intent, MEV Protection"
+    }
+  ],
+  "detailed_changes": []
+}
